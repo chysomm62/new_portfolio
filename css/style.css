@@ -48,15 +48,24 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   height: 100%;
 }
 
 .showcase h1 {
-  font-size: 4rem;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: left;
+  padding: 0.25rem;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 100;
 }
 .showcase p {
   font-size: 1.3rem;
+  width: 100%;
+}
+.showcase .showcase-inner .p {
+  font-family: "Satisfy", cursive;
 }
 
 .btn {
@@ -65,7 +74,7 @@ body {
   background-color: var(--primary-color);
   color: #fff;
   padding: 0.75rem 1.5rem;
-  margin-top: 1;
+  margin-top: 1.5rem;
   text-decoration: none;
   transition: opacity 1s ease-in;
 }
