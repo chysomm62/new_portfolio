@@ -4,6 +4,7 @@
   --primary-color: rgba(3, 37, 48, 0.75);
   --overlay-color: rgba(11, 18, 24, 0.85);
   --menu-speed: 0.75s;
+  --color-pri: rgba(85, 56, 3, 0.8);
 }
 
 * {
@@ -71,7 +72,7 @@ body {
 .btn {
   display: inline-block;
   border: none;
-  background-color: var(--primary-color);
+  background-color: var(--color-pri);
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1.5rem;
