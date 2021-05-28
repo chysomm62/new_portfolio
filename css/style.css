@@ -53,10 +53,11 @@ body {
   font-family: "Abril Fatface", cursive;
   font-weight: 100;
 }
-.chisom p {
-}
+
 .home .chisom .p {
   font-family: "Satisfy", cursive;
   font-size: 1.3rem;
   width: 100%;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 0;
 }
