@@ -26,6 +26,10 @@ p {
   letter-spacing: 0.2rem;
 }
 
+.font-awesome {
+  color: var(--style-color);
+}
+
 .color {
   color: var(--style-color);
 }

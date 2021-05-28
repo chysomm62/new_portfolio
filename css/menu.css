@@ -144,6 +144,9 @@
   .link-li .active {
     color: var(--style-color);
   }
+  .link-li .link:hover {
+    color: var(--style-color);
+  }
 }
 
 @media screen and (min-width: 901px) {
@@ -155,6 +158,9 @@
     display: none;
   }
   .menu-wrap {
+    position: static;
+    left: 0;
+    cursor: pointer;
     width: 25%;
     height: 100%;
     min-height: 100vh;
@@ -196,6 +202,9 @@
     transition: color 0.4s ease;
   }
   .link-li .active {
+    color: var(--style-color);
+  }
+  .link-li .link:hover {
     color: var(--style-color);
   }
 }
